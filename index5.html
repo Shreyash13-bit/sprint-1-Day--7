@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Grades Table</title>
+  <style>
+    table {
+      width: 70%;
+      margin: 50px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    thead {
+      background-color: #2196f3;
+      color: white;
+    }
+
+    tfoot {
+      background-color: #f1f1f1;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Subject</th>
+        <th>Marks</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Alice Johnson</td>
+        <td>Math</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>Bob Smith</td>
+        <td>Science</td>
+        <td>92</td>
+      </tr>
+      <tr>
+        <td>Charlie Lee</td>
+        <td>English</td>
+        <td>78</td>
+      </tr>
+      <tr>
+        <td>Diana Brown</td>
+        <td>History</td>
+        <td>88</td>
+      </tr>
+      <tr>
+        <td>Ethan Davis</td>
+        <td>Geography</td>
+        <td>90</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2">Average Marks</td>
+        <td>86.6</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
